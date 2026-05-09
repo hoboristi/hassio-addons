@@ -1,5 +1,4 @@
-ARG alpine
-FROM $BUILD_FROM
+FROM alpine
 
 # Install required inetd as part of busybox-extras
 RUN \
