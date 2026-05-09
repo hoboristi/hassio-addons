@@ -1,4 +1,4 @@
-FROM alpine
+FROM ghcr.io/home-assistant/base:latest
 
 # Install required inetd as part of busybox-extras
 RUN \
